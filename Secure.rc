@@ -1,0 +1,702 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "McGuill Software Solutions"
+            VALUE "FileDescription", "Win 95/98 Security Application"
+            VALUE "FileVersion", "1.1"
+            VALUE "InternalName", "CAPRICORN"
+            VALUE "LegalCopyright", "Copyright © 1999"
+            VALUE "OriginalFilename", "SECURE.EXE"
+            VALUE "ProductName", "MSS Secure"
+            VALUE "ProductVersion", "1.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About McGuill Secure..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Ireland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENI)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_EIRE
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\Secure.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Capricorn.ico"
+IDI_SYSTEM              ICON                    "res\\system.ico"
+IDI_PROGRAMS            ICON                    "res\\programs.ico"
+IDI_PRINTERS            ICON                    "res\\printers.ico"
+IDI_PASSWORD_SET        ICON                    "res\\ico00001.ico"
+IDI_PASSWORD            ICON                    "res\\password.ico"
+IDI_NETWORK             ICON                    "res\\network.ico"
+IDI_GENERAL             ICON                    "res\\icon1.ico"
+IDI_DISPLAY             ICON                    "res\\display.ico"
+IDI_APP                 ICON                    "res\\ico00008.ico"
+IDI_DESKICONS           ICON                    "res\\ico00002.ico"
+IDI_ABOUTANI0           ICON                    "res\\ico00003.ico"
+IDI_ABOUTANI1           ICON                    "res\\aboutani.ico"
+IDI_ABOUTANI2           ICON                    "res\\ico00004.ico"
+IDI_ABOUTANI3           ICON                    "res\\ico00005.ico"
+IDI_ABOUTANI4           ICON                    "res\\ico00006.ico"
+IDI_ABOUTANI5           ICON                    "res\\ico00007.ico"
+IDI_ABOUTANI6           ICON                    "res\\ico00009.ico"
+IDI_DRIVES              ICON                    "res\\display1.ico"
+IDI_STARTMENU           ICON                    "res\\ico00010.ico"
+IDI_LEVEL               ICON                    "res\\general1.ico"
+IDI_LEVELHIGH           ICON                    "res\\ico00011.ico"
+IDI_LEVELSTANDARD       ICON                    "res\\levelhig.ico"
+IDI_LEVELNONE           ICON                    "res\\ico00012.ico"
+IDI_LEVELHIGH_OFF       ICON                    "res\\ico00013.ico"
+IDI_LEVELNONE_OFF       ICON                    "res\\levelnon.ico"
+IDI_LEVELSTANDARD_OFF   ICON                    "res\\levelsta.ico"
+IDI_LEVELCUSTOM_OFF     ICON                    "res\\levelcus.ico"
+IDI_LEVELCUSTOM         ICON                    "res\\ico00014.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 168, 164
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "About McGuill Secure"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "",IDC_STABOUT,7,43,154,58,SS_NOPREFIX | SS_SUNKEN
+    DEFPUSHBUTTON   "OK",IDOK,7,105,154,34,BS_ICON | WS_GROUP
+    CONTROL         141,IDC_STLOGO,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_SUNKEN,30,7,108,33
+    PUSHBUTTON      "Contact Info ...",IDC_BCONTACT,7,141,154,16
+END
+
+IDD_SECURE_DIALOG DIALOGEX 0, 0, 232, 197
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "McGuill Secure"
+MENU IDR_MAINFRAME
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List2",IDC_SUBAREAS,"SysListView32",LVS_SINGLESEL | 
+                    LVS_NOLABELWRAP | WS_BORDER | WS_TABSTOP,2,2,71,171
+    DEFPUSHBUTTON   "OK",IDOK,70,180,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,125,180,50,14
+    PUSHBUTTON      "Apply",IDAPPLY,180,180,50,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,2,175,228,1
+    ICON            IDI_PASSWORD_SET,IDC_AREAICON,81,4,18,20,NOT WS_VISIBLE
+    LTEXT           "Area Text",IDC_STAREATEXT,107,4,123,20,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,81,26,150,1
+    LTEXT           "",IDC_STDLGPLACE,80,30,150,143,NOT WS_VISIBLE
+END
+
+IDD_SECURE_SETPASS DIALOG  0, 0, 222, 62
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Secure Password."
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDNEW,7,16,151,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDNEWCONFIRM,7,41,151,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,165,16,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,165,41,50,14
+    LTEXT           "New Password",IDC_STATIC,7,7,48,8
+    LTEXT           "Confirm New Password",IDC_STATIC,7,33,74,8
+END
+
+IDD_SPLASH DIALOGEX 0, 0, 179, 75
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         146,IDC_STBMP,"Static",SS_BITMAP,0,0,179,75
+END
+
+IDD_PASSWORD DIALOG  0, 0, 233, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "McGuill Secure - Please Enter Security Password."
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDPASS,48,42,121,12,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,176,22,50,14
+    PUSHBUTTON      "Quit",IDCANCEL,176,40,50,14
+    ICON            IDI_PASSWORD_SET,IDC_STATIC,7,19,21,20,SS_NOTIFY
+    LTEXT           "This Program is password protected.",IDC_STATIC,44,24,
+                    128,10
+    LTEXT           "Password:",IDC_STATIC,11,44,34,8
+    CTEXT           "©McGuill Software Solutions Secure.",IDC_STATIC,7,7,219,
+                    10,SS_SUNKEN
+END
+
+IDD_CHANGETEXT DIALOG  0, 0, 230, 84
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Change Your Text Here"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDITEMTEXT,57,33,166,12,ES_AUTOHSCROLL | 
+                    ES_NOHIDESEL
+    DEFPUSHBUTTON   "OK",IDOK,121,63,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,173,63,50,14
+    ICON            IDI_PROGRAMS,IDC_STICON,7,7,18,20
+    CTEXT           "Item:",IDC_STITEM,7,35,48,20
+    LTEXT           "Your Text Describing What To Do Here.\nLine 2\nLine 3",
+                    IDC_STTIP,58,7,165,25
+    PUSHBUTTON      "&Browse...",IDC_BBROWSE,69,63,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Restore &Default",IDC_BDEF,7,63,58,14,NOT WS_VISIBLE
+END
+
+IDD_ADDAPP DIALOG  0, 0, 360, 238
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Allow Start Menu Applications"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,243,217,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,302,217,50,14
+    CONTROL         "List1",IDC_LCPROGRAMS,"SysListView32",LVS_LIST | 
+                    LVS_SORTASCENDING | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,140,16,212,197
+    CONTROL         "Tree1",IDC_TREESTARTMENU,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,7,16,129,197
+    LTEXT           "Start Menu - Programs:",IDC_STATIC,7,7,73,8
+    LTEXT           "Programs:\t\tCheck an item to allow it.",IDC_STATIC,139,
+                    7,167,8
+END
+
+IDD_SUBGENERAL DIALOG  0, 0, 150, 143
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Hide &Control Panel",IDC_CB_FOLDERS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,2,130,10
+    CONTROL         "Hide &Desktop Icons",IDC_CB_HIDEDESKTOPICONS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,18,130,10
+    CONTROL         "Disable &Registry Editing Tools",IDC_CB_REGISTRY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,34,130,10
+    CONTROL         "Disable &MS-DOS Prompt",IDC_CB_MSDOS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,50,130,10
+    CONTROL         "Disable &Single Mode MS-DOS Apps",
+                    IDC_CB_SINGLEMODEMSDOS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,2,66,130,10
+    CONTROL         "No 'Entire &Network' ",IDC_CB_ENTIRENET,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,82,130,10
+    CONTROL         "No '&Workgroup Contents'",IDC_CB_WORKGROUPCONT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,98,130,10
+    CONTROL         "No Context Menus In &Explorer",IDC_CB_NOEXPCM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,114,130,10
+    CONTROL         "No Context Menus In &Taskbar",IDC_CB_NOTASKCM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,130,130,10
+END
+
+IDD_SUBDESKTOPICONS DIALOG  0, 0, 150, 143
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LCMAIN,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    LVS_NOCOLUMNHEADER | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,0,0,148,142
+END
+
+IDD_SUBADDREMOVE DIALOG  0, 0, 150, 143
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "&Allow All Programs To Be Executed.",IDC_CB_ALLOWALL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,0,129,10
+    PUSHBUTTON      "&Add ...",IDC_RUN_BADD,0,128,75,14,BS_BITMAP
+    PUSHBUTTON      "&Custom",IDC_BADDNONSM,79,128,67,14,BS_BITMAP
+    CONTROL         "List1",IDC_RUN_LC,"SysListView32",LVS_SMALLICON | 
+                    LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | LVS_NOSORTHEADER | 
+                    WS_DISABLED | WS_BORDER | WS_TABSTOP,5,20,135,104
+    GROUPBOX        "Allow Only These Applications:",IDC_ST1,0,10,145,116,
+                    WS_DISABLED
+END
+
+IDD_SUBDISPLAY DIALOG  0, 0, 150, 143
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Disable &Display In Control Panel",IDC_DISP_CBDISABLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,2,146,8
+    CONTROL         "Hide &Background Page",IDC_DISP_CBBG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,25,146,8
+    CONTROL         "Hide &Settings Page",IDC_DISP_CBSET,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,48,146,8
+    CONTROL         "Hide &Appearance Page",IDC_DISP_CBAPP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,71,146,8
+    CONTROL         "Hide S&creen Saver Page",IDC_DISP_CBSCR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,94,146,8
+END
+
+IDD_SUBSYSTEM DIALOG  0, 0, 150, 143
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Hide &Virtual Memory Button",IDC_SYS_CBVMB,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,2,146,10
+    CONTROL         "Hide &File System Button",IDC_SYS_CBFSB,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,27,146,10
+    CONTROL         "Hide &Hardware Profiles Page",IDC_SYS_CBHARDW,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,52,146,10
+    CONTROL         "Hide &Device Manager Page",IDC_SYS_CBDEVMAN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,77,146,10
+END
+
+IDD_SUBNETWORK DIALOG  0, 0, 150, 143
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "&Disable Network Control Panel",IDC_NET_CBDISABLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,2,146,10
+    CONTROL         "No ""&Map/Disc Net Drive"" Button",
+                    IDC_NET_CBNOMAPNETDRIVE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,2,28,146,10
+    CONTROL         "Hide &Access Control Page",IDC_NET_CBHIDEACCCON,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,54,146,10
+    CONTROL         "Hide &Identification Page",IDC_NET_CBHIDEIDPAGE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,80,146,10
+END
+
+IDD_SUBPASSWORDS DIALOG  0, 0, 150, 143
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Hide &Remote Administration Page",IDC_PW_CBHIDEREMADM,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,2,146,10
+    CONTROL         "Hide &Change Passwords Page",IDC_PW_CBHIDECHANGEPW,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,31,146,10
+    CONTROL         "Hide &User Profiles Page",IDC_PW_CBHIDEUSERPROFILES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,60,146,10
+    CONTROL         "&Disable Passwords Control Panel",IDC_PW_CBDISABLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,89,146,10
+END
+
+IDD_SUBPRINTERS DIALOG  0, 0, 150, 143
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Disable &Deletion of Printers",IDC_PRN_CBDEL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,2,146,10
+    CONTROL         "Disable &Addition of Printers",IDC_PRN_CBADD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,22,146,10
+    CONTROL         "Hide &General And Details Page",IDC_PRN_CBGENDET,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,42,146,10
+END
+
+IDD_SUBPASS_SETTINGS DIALOG  0, 0, 150, 143
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Disable &Password Caching",IDC_PASS_CBCACHE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,2,146,10
+    CONTROL         "Require &Alphanumeric Password",IDC_PASS_CBALPHA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,28,146,10
+    CONTROL         "&Minimum Password Length:",IDC_PASS_CBLEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,54,102,10
+    EDITTEXT        IDC_PASS_EDLEN,103,52,39,14,ES_AUTOHSCROLL
+    CONTROL         "Don't Display &Username At Logon",IDC_PW_CBLASTUSER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,80,146,10
+    CONTROL         "Hide &Share Passwords with Asterisks",IDC_PASS_CBSHARE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,106,146,10
+    CONTROL         "Spin1",IDC_PASS_SPLEN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_NOTHOUSANDS,137,53,
+                    11,14
+END
+
+IDD_SUBDRIVES DIALOG  0, 0, 150, 143
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LCMAIN,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    LVS_NOCOLUMNHEADER | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,0,0,148,142
+END
+
+IDD_SUBSTARTMENU DIALOG  0, 0, 150, 143
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Hide '&Find' On Start Menu",IDC_SM_CBFIND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,2,130,10
+    CONTROL         "Hide '&Run' On Start Menu",IDC_SM_CBREMOVERUN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,24,130,10
+    CONTROL         "Hide '&Shutdown' Command",IDC_SM_CBSHUTDOWN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,46,130,10
+    CONTROL         "Hide Start Menu Sub-&Folders",IDC_SM_CBSUBFOLDERS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,68,130,10
+    CONTROL         "Hide '&Taskbar' On Settings",IDC_SM_CBTASKBAR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,2,90,130,10
+END
+
+IDD_CONTACTINFO DIALOG  0, 0, 184, 122
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Contact McGuill Software Solutions."
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,66,101,50,14
+    LTEXT           "Web:\thttp://homepage.eircom.net/~mcguillss\n\nEmail:\tmcguillss@eircom.net\n\nPhone:\t+353 (0503) 40881\n\nMail: \tMcGuill Software Solutions,\n\tRathcrogue,\n\tCarlow,\n\tEire.",
+                    IDC_STATIC,7,7,170,86,SS_SUNKEN | WS_BORDER
+END
+
+IDD_SUBLEVEL DIALOG  0, 0, 150, 143
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Slider1",IDC_SLDLEVEL,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_BOTH | WS_TABSTOP,2,2,26,124
+    CTEXT           "High",IDC_STATIC,35,23,21,8
+    LTEXT           "Standard",IDC_STATIC,31,58,29,8
+    CTEXT           "None",IDC_STATIC,35,129,21,8
+    LTEXT           "Extremely secure, but restricts machine functionality.",
+                    IDC_STATIC,71,2,70,27
+    LTEXT           "Standard settings for all computers.\n(Recommended)",
+                    IDC_STATIC,71,39,70,25
+    LTEXT           "(Not Recommended) Your computer is vulnerable.",
+                    IDC_STATIC,71,108,70,27
+    ICON            IDI_LEVELHIGH,IDC_STHIGH,35,2,21,20
+    ICON            IDI_LEVELNONE_OFF,IDC_STNONE,35,107,21,20
+    ICON            IDI_LEVELSTANDARD_OFF,IDC_STSTD,35,37,21,20
+    CTEXT           "Custom",IDC_STATIC,31,93,29,8
+    LTEXT           "Your own custom settings\n(Expert users Only)",
+                    IDC_STATIC,71,74,70,28
+    ICON            IDI_LEVELCUSTOM_OFF,IDC_STCUSTOM,35,72,21,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 161
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_SECURE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 230
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_SECURE_SETPASS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_CHANGETEXT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_ADDAPP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 352
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_SUBGENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_SUBDESKTOPICONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_SUBADDREMOVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_SUBDISPLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_SUBSYSTEM, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_SUBNETWORK, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_SUBPASSWORDS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_SUBPRINTERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_SUBPASS_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_SUBDRIVES, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_SUBSTARTMENU, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_CONTACTINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 177
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+
+    IDD_SUBLEVEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 141
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "Load Configuration",          ID_OPTIONS_LOADCONFIGURATION
+        MENUITEM "Save Current Configuration",  ID_OPTIONS_SAVECURRENTCONFIGURATION
+
+        MENUITEM SEPARATOR
+        MENUITEM "Set Security Password",       ID_OPTIONS_SETSECURITYPASSWORD
+        , GRAYED
+    END
+    POPUP "&Help", GRAYED
+    BEGIN
+        MENUITEM "About MSS Secure",            ID_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BCUSTOM             BITMAP                  "res\\bitmap1.bmp"
+IDB_BADD                BITMAP                  "res\\bmp00012.bmp"
+IDB_STATE_CHECK         BITMAP                  "res\\state_ch.bmp"
+IDB_MSSLOGO             BITMAP                  "res\\bmp00002.bmp"
+#if defined(APSTUDIO_INVOKED) || defined(__DEMO__)
+#if defined(APSTUDIO_INVOKED)
+IDB_SPLASH$(__DEMO__)   BITMAP                  "res\\splash1.bmp"
+#else
+IDB_SPLASH              BITMAP                  "res\\splash1.bmp"
+#endif
+#endif
+#if defined(APSTUDIO_INVOKED) || !defined(__DEMO__)
+IDB_SPLASH              BITMAP                  "res\\secure splash.bmp"
+#endif
+#endif    // English (Ireland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\Secure.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
